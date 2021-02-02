@@ -1,0 +1,24 @@
+---
+title: "R - Python"
+author: "Nicolas Duque"
+date: "31/1/2021"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reticulate
+
+```{r}
+  library(reticulate)
+  
+ #Guarda una libreria de python en una variable de R
+ os <- import("os")
+ 
+ os$listdir(".")
+```
+

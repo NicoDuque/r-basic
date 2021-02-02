@@ -1,0 +1,74 @@
+---
+title: "Documentacion de Texto"
+author: "Nicolas Duque"
+date: "24/1/2021"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+# Titulo 1
+
+## Titulo 2
+
+### Titulo 3
+
+#### Titulo 4
+
+##### Titulo 5
+
+
+###### Titulo 6
+
+
+Esto es un texto llano. Podemos escribir sin ningun problema todo el texto que queramos para acompañar tanto al codigo de `R`, como las formulas en latex.
+
+Esto es una nueva línea de texto.
+
+Para colocar cursiva necesitamos asteriscos ' * ' al inicio y fin de la frase que queremos en cursiva. *Esto es cursiva*.
+Tambien para cursiva se puede colocar al inicio y fin de la frase raya al piso ' _ ' _Esto es con raya al piso_.
+
+Para colocar negrita es con doble asterisco ' ** ', de la siguiente manera **Hola, te saludo con negrita**. Tambien se puede usar doble raya al piso ' __ ' de esta forma __De nuevo negrita.__
+
+Para colocar superindices se debe realizar con el sombrero ' ^  ' al inicio y fin. Ejemplo, El area de un circulo se calcula con pi*r^2^
+
+Para tachar una palabra se utiliza el simbolo de virguilla doble ' ~~ ' al inicio y final del texto a tachar ~~Esto sera un texto tachado~~
+
+Para conocer mas de los cursos de Juan Gabriel puedes ingresar al [perfil de udemy](https://www.udemy.com/)
+
+Para poner una imagen se usa asi ![](r-rstudio.png)
+
+Barra divisora con tres asteriscos
+
+***
+Aqui comenzamos otro tema
+
+>Esto es una cita en bloque
+
+## Listas no ordenadas
+* Item 1
+  + Subtiem 1.1
+  + Subitem 1.2
+* Item 2
+* Item 3
+  + Subitem 3.1
+* Item 4
+
+## Lista Ordenada
+
+1. Item 1
+2. Item 2
+  + Subitem 1
+  + Subitem 2
+3. Item 3
+4. Item 4
+
+## Tabla
+
+Alumno        |  Nota
+--------------|--------------
+Nicolas       |   3.5
+Juan Gabriel  |   3.8
+Antonia       |   4.2
+
